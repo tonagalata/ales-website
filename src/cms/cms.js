@@ -11,7 +11,7 @@ import TesterPagePreview from './preview-templates/TesterPagePreview'
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 
-CMS.registerPreviewTemplate('index', TesterPagePreview)
+CMS.registerPreviewTemplate('tester', TesterPagePreview)
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('products', ProductPagePreview)
