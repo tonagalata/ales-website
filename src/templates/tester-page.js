@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-export const TesterTemplate = ({
+export const TesterPageTemplate = ({
   title,
   heading,
   subheading,
@@ -110,7 +110,7 @@ export const TesterTemplate = ({
   </div>
 )
 
-TesterTemplate.propTypes = {
+TesterPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -126,7 +126,7 @@ const TesterPage = ({ data }) => {
 
   return (
     <Layout>
-      <TesterTemplate
+      <TesterPageTemplate
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -149,7 +149,7 @@ Tester.propTypes = {
 export default Tester
 
 export const pageQuery = graphql`
-  query TesterTemplate {
+  query TesterPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { TesterPagePreview } from '../../templates/tester-page'
+import { TesterPageTemplate } from '../../templates/tester-page'
 
 const TesterPagePreview = ({ entry, widgetFor }) => (
-  <TesterPagePreview
+  <TesterPageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
