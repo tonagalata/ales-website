@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a Conscience!!!
-image: /img/home-jumbotron.jpg
+image: /img/pexels-karolina-grabowska-4467748.jpeg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
