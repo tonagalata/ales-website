@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a Conscience!!!
+title: My Coaching is designed to empower women to live powerfully and authentically.
 image: /img/pexels-karolina-grabowska-4467748.jpeg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: 
 mainpitch:
   title: Why Kaldi
   description: >
