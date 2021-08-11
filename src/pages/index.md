@@ -3,7 +3,7 @@ templateKey: index-page
 title: My Coaching is designed to empower women to live powerfully and authentically.
 image: /img/pexels-karolina-grabowska-4467748.jpeg
 heading: Great coffee with a conscience
-subheading: 
+subheading: Meet Me
 mainpitch:
   title: Why Kaldi
   description: >
